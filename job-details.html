@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>JOB HUB - Job Details</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <h1>JOB HUB</h1>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="profile.html">My Profile</a>
+            <a href="applications.html">Applications</a>
+            <a href="saved-jobs.html">Saved Jobs</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Job Details -->
+
+    <main>
+
+        <section class="job-details-container">
+
+
+            <div class="detail-title">
+
+                <p class="small-title">
+                    JOB OPPORTUNITY
+                </p>
+
+                <h1>Job Details</h1>
+
+                <div class="detail-meta">
+
+                    <span>🏢 Company</span>
+
+                    <span>📍 Location</span>
+
+                    <span>💼 Full Time</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Overview -->
+
+            <div class="detail-section">
+
+                <h2>Job Overview</h2>
+
+
+                <div class="overview-grid">
+
+                    <div>
+
+                        <span>Salary</span>
+
+                        <strong>₹4 - ₹6 LPA</strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>Job Type</span>
+
+                        <strong>Full Time</strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>Experience</span>
+
+                        <strong>Fresher / 0-2 Years</strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>Work Mode</span>
+
+                        <strong>On-site</strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Description -->
+
+            <div class="detail-section">
+
+                <h2>Job Description</h2>
+
+                <p>
+                    Job description will appear here.
+                </p>
+
+            </div>
+
+
+            <!-- Skills -->
+
+            <div class="detail-section">
+
+                <h2>Required Skills</h2>
+
+                <div class="skill-list">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Actions -->
+
+            <div class="detail-actions">
+
+                <button
+                    class="apply-button"
+                    onclick="applyJob(localStorage.getItem('selectedJob'))">
+
+                    Apply Now
+
+                </button>
+
+
+                <button
+                    class="save-job"
+                    onclick="saveJob()">
+
+                    Save Job
+
+                </button>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 JOB HUB. All Rights Reserved.
+        </p>
+
+        <p>
+            Find your dream job and build your future.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

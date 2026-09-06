@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>JOB HUB - Register</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <h1>JOB HUB</h1>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="profile.html">My Profile</a>
+            <a href="applications.html">Applications</a>
+            <a href="saved-jobs.html">Saved Jobs</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Register -->
+
+    <main>
+
+        <section class="login-container">
+
+            <h2>Create JOB HUB Account</h2>
+
+            <form onsubmit="registerUser(event)">
+
+
+                <label>
+                    Full Name
+                </label>
+
+                <input
+                    type="text"
+                    id="registerName"
+                    placeholder="Enter your name"
+                    required>
+
+
+                <label>
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="registerEmail"
+                    placeholder="Enter your email"
+                    required>
+
+
+                <label>
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="registerPassword"
+                    placeholder="Create a password"
+                    required>
+
+
+                <button type="submit">
+                    Register
+                </button>
+
+            </form>
+
+
+            <p>
+
+                Already have an account?
+
+                <a href="login.html">
+                    Login
+                </a>
+
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 JOB HUB. All Rights Reserved.
+        </p>
+
+        <p>
+            Find your dream job and build your future.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

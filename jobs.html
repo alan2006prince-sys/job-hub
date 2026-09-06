@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>JOB HUB - Jobs</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <h1>JOB HUB</h1>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="profile.html">My Profile</a>
+            <a href="applications.html">Applications</a>
+            <a href="saved-jobs.html">Saved Jobs</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Jobs -->
+
+    <main>
+
+        <section class="jobs-section">
+
+            <h2>Find Your Dream Job</h2>
+
+
+            <!-- Search -->
+
+            <div class="search-container">
+
+                <input
+                    type="text"
+                    id="jobSearch"
+                    placeholder="Search job title..."
+                    onkeyup="searchJobs()">
+
+
+                <input
+                    type="text"
+                    id="locationSearch"
+                    placeholder="Search location..."
+                    onkeyup="searchJobs()">
+
+            </div>
+
+
+            <!-- Job List -->
+
+            <div class="job-list">
+
+
+                <div class="job-card">
+
+                    <div class="job-icon">
+                        💻
+                    </div>
+
+                    <h3>Frontend Developer</h3>
+
+                    <p>
+                        ABC Technologies
+                    </p>
+
+                    <p>
+                        📍 Chennai
+                    </p>
+
+                    <p>
+                        💰 ₹4 - ₹6 LPA
+                    </p>
+
+                    <p>
+                        💼 Full Time
+                    </p>
+
+                    <button
+                        onclick="viewJob('Frontend Developer')">
+
+                        View Job
+
+                    </button>
+
+                </div>
+
+
+                <div class="job-card">
+
+                    <div class="job-icon">
+                        ☕
+                    </div>
+
+                    <h3>Java Developer</h3>
+
+                    <p>
+                        XYZ Solutions
+                    </p>
+
+                    <p>
+                        📍 Bangalore
+                    </p>
+
+                    <p>
+                        💰 ₹5 - ₹8 LPA
+                    </p>
+
+                    <p>
+                        💼 Full Time
+                    </p>
+
+                    <button
+                        onclick="viewJob('Java Developer')">
+
+                        View Job
+
+                    </button>
+
+                </div>
+
+
+                <div class="job-card">
+
+                    <div class="job-icon">
+                        🐍
+                    </div>
+
+                    <h3>Python Developer</h3>
+
+                    <p>
+                        Tech Innovations
+                    </p>
+
+                    <p>
+                        📍 Hyderabad
+                    </p>
+
+                    <p>
+                        💰 ₹4 - ₹7 LPA
+                    </p>
+
+                    <p>
+                        💼 Full Time
+                    </p>
+
+                    <button
+                        onclick="viewJob('Python Developer')">
+
+                        View Job
+
+                    </button>
+
+                </div>
+
+
+                <div class="job-card">
+
+                    <div class="job-icon">
+                        🎨
+                    </div>
+
+                    <h3>UI/UX Designer</h3>
+
+                    <p>
+                        Creative Labs
+                    </p>
+
+                    <p>
+                        📍 Coimbatore
+                    </p>
+
+                    <p>
+                        💰 ₹3 - ₹5 LPA
+                    </p>
+
+                    <p>
+                        💼 Full Time
+                    </p>
+
+                    <button
+                        onclick="viewJob('UI/UX Designer')">
+
+                        View Job
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 JOB HUB. All Rights Reserved.
+        </p>
+
+        <p>
+            Find your dream job and build your future.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
